@@ -15,9 +15,6 @@ CREATE TABLE IF NOT EXISTS `week` (
     PRIMARY KEY (`id`)
 )  ENGINE=INNODB DEFAULT CHARSET=UTF8
 
-INSERT INTO notebook ( `name`, city, num) VALUES ("da", "pvl", "3213213323");
-INSERT INTO notebook ( `name`, city, num) VALUES ("da", "pvl", "1232131232");
-INSERT INTO notebook ( `name`, city, num) VALUES ("ya", "pvk", "3213213213");
 
 SET GLOBAL time_zone = '+6:00';
 ```
